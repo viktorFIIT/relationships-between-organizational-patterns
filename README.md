@@ -5,3 +5,7 @@ Purpose of this repo is to do EDA (Exploratory Data Analysis) to support search 
 Folder data contains text file with organizational patterns from Coplien & Harrison book, you can find at: https://www.amazon.com/Organizational-Patterns-Agile-Software-Development/dp/0131467409
 
 Folder graphs contains graphs / diagrams code stored in source.R generates
+
+Book(s) which may be helpful: 
+
+- R for Data Science written by R co-author avaliable for free https://r4ds.had.co.nz/index.html
