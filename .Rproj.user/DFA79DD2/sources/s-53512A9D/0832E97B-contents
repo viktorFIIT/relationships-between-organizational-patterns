@@ -65,7 +65,7 @@ cat_freq <- dtm_bigram_df %>% group_by(patternName) %>% summarise_each(funs(sum)
 library(reshape2)
 
 ggplot(melt(cat_freq),aes(x=variable, y=value, fill = patternName)) + 
-  geom_col(position = "dodge") + coord_flip() + xlab("unigrams") + ylab("bigrams_frequency") + 
+  geom_col(position = "dodge") + coord_flip() + xlab("bigrams") + ylab("bigrams_frequency") + 
   theme() + ggtitle("Most used words across pattern descriptions") + ggsave("graphs/most-used-words-across-patterns.pdf") 
 
 bigramTokenizer <- function(x){
