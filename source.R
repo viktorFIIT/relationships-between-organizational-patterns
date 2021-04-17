@@ -107,5 +107,5 @@ ggraph(bigrams_network, layout="fr") +
   geom_node_point(color="#99F1EB", size=5) +
   geom_node_text(aes(label=name), repel=T) +
   theme_void() +
-  labs(title="Connections between association sections of org. patterns") +
+  labs(title="Connections between words from association sections of org. patterns") +
   ggsave("graphs/connections-between-words.pdf")
