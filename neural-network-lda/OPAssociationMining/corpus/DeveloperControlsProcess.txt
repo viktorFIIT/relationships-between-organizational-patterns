@@ -1,0 +1,46 @@
+...an organization has come together to build software for a new market in an immature domain, or in a domain which is unfamiliar to the development team.
+Progress will be marked by an InformalLaborPlan.
+The necessary roles have been defined and initially staffed.
+
+✥ ✥ ✥
+
+A development culture, like any culture, can benefit from recognizing a focal point of project direction and communication.
+Successful organizations work in an organic way with a minimum of centralized control.
+Yet there are important points of focus, embodied in roles, that tie together the ideas, requirements, and constraints into an artifact ready for testing, packaging, marketing, and delivery.
+
+Totalitarian control is viewed by most development teams as a draconian measure.
+The right information must flow through the right roles.
+You need to support information flow across analysis, design, and implementation.
+Because developers contribute directly to the end-user-visible artifact, they are in the best position to take accountability for the product.
+Of all roles, they have the largest stake in the largest number of phases of product development.
+And there should be no accountability without control.
+The ManagerRole has some accountability as well, to the extent that it indirectly supports delivery of the user-visible artifacts. These are process issues.
+
+Therefore:
+
+Make the Developer the focal point of process information.
+Place the Developer role at a hub of the process for a given feature, in the spirit of OrganizationFollowsMarket.
+A feature is a unit of system functionality (implemented largely in software) that can be separately marketed, and for which customers are willing to pay.
+Responsibilities of Developers include understanding requirements, reviewing the solution structure and algorithm with peers, building the implementation, and unit testing.
+external image SNAP_Normal_Force.gif
+The developer is central to all activities of this end-to-end software development process.
+
+Note that other hubs, such as the ManagerRole, may exist as well, though they are less central than the Developer.
+
+✥ ✥ ✥
+
+The Developer who is at the hub of a particular feature may be accorded that position according to FunctionOwnerAndComponentOwner but, more generally, the developer should be at the communication hub of whatever process engages them in writing code for the customer.
+This pattern encourages a structure that supports its prime information consumer.
+The Developer can be moved toward the center of the process using patterns WorkFlowsInward and MoveResponsibilities.
+Though Developer should be a key role, care must be taken not to overburden it.
+This pattern should be balanced with MercenaryAnalyst, FireWalls, GateKeeper, and more general load-balancing patterns like HallwayChatter, ResponsibilitiesEngage, and MoveResponsibilities. Conflicts can be escalated to the PatronRole when consensus breaks down. and the Developer should enjoy particularly strong support from the PatronRole.
+
+If the Developer controls the process, then it's possible to have WorkFlowsInward.
+
+Developers of course don't "control" the process unilaterally, but as a collective group, starting with DevelopingInPairs.
+
+We have no role called Designer because design is really the whole task. Managers fill a supporting role; empirically, they are rarely seen to control a process except during crises. While the Developer controls the process, the Architect controls the product. (In the figure, the Architect role is split across FrameworkOwner? and ArchitectureTeam.) This communication is particularly important in domains that are not well understood, so that iteration can take place to explore the domain with the customer.
+
+In a mature domain, consider HubSpokeAndRim as an alternative.
+
+You can still write down your process as part of a process improvement program. But keep the documentation light; many organizations have found that one page per process is good enough. And make sure each process step meets a need that you can tie to your organization's value proposition. Most often, this value is or should be tied to the product you are producing for a paying customer. If it isn't obvious how the process step helps achieve what you know the customer wants, the do the right thing instead.
