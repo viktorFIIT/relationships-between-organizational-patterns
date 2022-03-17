@@ -1,6 +1,6 @@
 # How to use
 
-This folder contains 4 trained implementations of the neural networks coded in Python v. 3.8.0. First of these files is better suitable for research, because it is coded solely in Python and thus (because I don't use high-level API here) can be better explained in research article. Simplest of these files makes use of the gradient descent algorithm to learn its parameters. Next one use advanced optimilizers.
+This folder contains 4 trained implementations of the neural networks coded in Python v. 3.8.0. First of these files is better suitable for research, because it is coded solely in Python and thus (because I don't use high-level API here) can be better explained in research article. Simplest of these files makes use of the gradient descent algorithm to learn its parameters. Next one makes use of advanced optimilizers.
 
 Implementations of these neural networks expect numeric attributes. This means one (possibly hot-encoded) column for encoded pattern name (dependent variable) and how many independent numeric attributes you want.
 
