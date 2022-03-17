@@ -6,7 +6,7 @@ Implementations of these neural networks expect numeric attributes. This means o
 
 File ```analysis-of-optimalization-algorithms``` is a Jupyter notebook with 3 multi-layer perceptrons. These can be used to predict probability of the patterns in a dataset.
 
-File ```softmax-classification-in-tensorflow-keras``` is implementation of the Softmax classification in TensorFlow framework (and its Keras facade) which can be used to classify patterns based on the maximum likelihood.
+File ```softmax-classification-in-tensorflow-keras``` is implementation of the Softmax classification in TensorFlow framework (and its Keras facade) which can be used to classify patterns based on the maximum likelihood (https://d2l.ai/chapter_linear-networks/softmax-regression.html#log-likelihood)
 
 Check https://www.tensorflow.org/ for further info.
 
