@@ -21,3 +21,9 @@ representations automatically. This means to automatically enhance them to be be
 
 Each of the layers represent information about the pattern in some level. Combination of the layers together
 solve our problem. Thus we try to decompose our bigger problem to the smaller parts - layers of the ANN.
+Almost all ML techniques can be transformed to their neural network representation (ANN with 3 layers max.)
+
+# What is the biggest advantage of ANN and deep learning? Why we should use these techniques here?
+
+Artificial neural networks allow us to generalize and abstract information we find in the study of org.
+patterns. Deep learning techniques allow us to learn these representations and enhance them.
