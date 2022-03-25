@@ -13,8 +13,8 @@ representations (e.g. with Prolog or other languages for building knowledge base
 
 # Why we should use Deep Learning techniques for this instead of the machine learning techniques?
 
-Deep learning techniques solve tasks which cannot be solved with simple machine learning techniques. They
-allow us to represent information about the processes described in organizational patterns and learn these
+Deep learning techniques enable us to solve tasks which cannot be solved with simple machine learning techniques. 
+They allow us to represent information about the processes described in organizational patterns and learn these
 representations automatically. This means to automatically enhance them to be better representations.
 
 # Why do we need to use multi-layer neural networks to search for hidden relationships between patterns?
