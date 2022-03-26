@@ -23,6 +23,15 @@ Deep learning techniques enable us to solve tasks which cannot be solved with si
 They allow us to represent information about the processes described in organizational patterns and learn these
 representations automatically. This means to automatically enhance them to be better representations.
 
+# Why do we talk about Multi-layer perceptrons instead of the neurons and / or perceptrons?
+
+Logical neuron designed by Pitts & McCulloch in 1943 works only with integer or binary-encoded attributes.
+Their logical neuron also assumes that all attributes in a dataset have a same weight. In our case, this would mean
+all n-grams for some organizational pattern in the matrix of Waseeb et al. in 'Extracting Relations Between
+Organizational Patterns Using Association Mining' on page 4. Table 1 would contribute same to final output
+of our probability model. Activation function for this logical neuron creates another problem for us. It does
+not exhibit information ahead through the network if sum of the n-gram incidents is not bigger than some threshold T.
+
 # What is the biggest advantage of ANN and deep learning? Why we should use these techniques here?
 
 Artificial neural networks allow us to generalize and abstract information we find in the study of organizational
