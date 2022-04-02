@@ -18,7 +18,7 @@ Each of the layers represent information about the pattern in some level. Combin
 solve our problem. Thus we try to solve our problem by decomposing bigger problem to its smaller parts - layers of the ANN.
 Almost all ML techniques can be transformed back to their neural network representation (ANN with 3 layers max.)
 
-# Why should we use deep learning techniques for this task instead of the machine learning techniques?
+# Why we should use deep learning techniques instead of the machine learning techniques?
 
 Deep learning techniques enable us to solve tasks which cannot be solved with simple machine learning techniques. 
 They allow us to represent information about the processes described in organizational patterns and learn these
@@ -28,9 +28,9 @@ Convolutional Neural Networks are a great way how we can search for patterns as 
 Neural Networks can be used to connect multiple patterns to create bigger whole, because of their ability to search
 for global tendencies. Multiple-layer perceptrons, in the other hand, can be only used to search for local tendencies.
 
-See more here about the CNN if you're interested here https://d2l.ai/chapter_convolutional-neural-networks/index.html
+See more about the CNN if you're interested here https://d2l.ai/chapter_convolutional-neural-networks/index.html
 
-# Why do we talk about the ,ulti-layer perceptrons instead of the neurons or perceptrons?
+# Why do we talk about the multi-layer perceptrons instead of the neurons or perceptrons?
 
 Logical neuron originally designed by Pitts & McCulloch in 1943 works only with integer or with binary-encoded attributes.
 Their logical neuron also assumes that all attributes in a dataset have a same weight. In our case, this would mean
@@ -39,7 +39,7 @@ Organizational Patterns Using Association Mining' on page 4. Table 1 would contr
 of our probability model. Activation function for this logical neuron creates another problem for us. It does
 not exhibit information ahead through the network if sum of the n-gram incidents is not bigger than some predefined threshold T.
 
-# What is the biggest advantage of ANN and deep learning? Why we should use these techniques here?
+# What is the biggest advantage of ANN and deep learning techniques? Why we should use these techniques here?
 
 Artificial neural networks allow us to generalize and abstract information we find in the study of organizational
 patterns. Deep learning techniques allow us to learn these representations and enhance them. 
