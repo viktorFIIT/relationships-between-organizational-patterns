@@ -1,8 +1,8 @@
 # How to use
 
-Install Python and Jupyter Notebook or Jupyter Lab. Then run from this place as ```jupyter notebook```. Your app is accessible at ```http://localhost:8889/?token=<your-token>```.
+Install Python and Jupyter Notebook or Jupyter Lab. Then run from this place as ```jupyter notebook```. Your app is then accessible at ```http://localhost:8889/?token=<your-token>```.
 
-Our ANN as MLP is implemented in Python 3.8.0, TensorFlow: https://www.tensorflow.org/ and Keras: https://keras.io/. Keras is a handy facade for TensorFlow for those who don't have to work with low-level API and code.
+ANN is MLP and is implemented in Python 3.8.0, with TensorFlow: https://www.tensorflow.org/ and Keras: https://keras.io/. Keras is a handy facade of TensorFlow for those who don't want to work with a low-level API.
 
 # Why we should use artificial neural networks to search for hidden relationships between organizational patterns?
 
