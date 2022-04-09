@@ -6,7 +6,7 @@ ANN is MLP and is implemented in Python 3.8.0, with TensorFlow: https://www.tens
 
 # Why we should use artificial neural networks to search for hidden relationships between organizational patterns?
 
-Simply because they are one of the most effective techniques how we can encode information about the real world
+Simply because they are one of the most efficient techniques how we can encode information about the real world
 in its artificial representation. We encode this information in a hidden layers of the artificial neural network. 
 This is one of the accepted techniques which allows us to learn artificial representations. Learned representations
 are widely considered to be much more effective than a hand-crafted representations (e.g. with Prolog or through 
